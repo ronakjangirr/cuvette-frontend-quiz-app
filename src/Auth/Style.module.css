@@ -1,0 +1,74 @@
+/* AuthPage.Style.module.css */
+
+/* body, */
+/* html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F2F2;
+} */
+
+.fullScreenDiv {
+  height: 100vh; /* 100% of the viewport height */
+  width: 100vw; /* 100% of the viewport width */
+  /* Add other styles as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F2F2;
+
+}
+
+
+.card {
+  width: 800px;
+  height: 550px;
+  background-color: white;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.header {
+  color: #474444;
+  font-family: 'Jomhuria';
+  font-weight: 200px;
+  font-size: 40px;
+}
+
+.buttons {
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 40px;
+  color: black;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.buttons:hover {
+  box-shadow: 0 4px 8px rgb(105, 160, 177);
+}

@@ -1,0 +1,78 @@
+/* RegisterForm.Style.module.css */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.parent div {
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    margin-top: 5px;
+    padding: 10px;
+    width: 250px;
+    margin-left: 10px;
+    background-color: #F4F4F4;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.gap {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.signUpButton {
+    background-color: #A9BCFF;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 40px;
+    color: black;
+    cursor: pointer;
+    padding: 10px 40px;
+    font-size: 1.2rem;
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.signUpButton:hover {
+    box-shadow: 0 4px 18px rgb(65, 117, 133);
+}
+
+.signUpBtnParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.errorInput {
+    border: 2px solid red;
+}
+
+.errorInput::placeholder {
+    color: red;
+}

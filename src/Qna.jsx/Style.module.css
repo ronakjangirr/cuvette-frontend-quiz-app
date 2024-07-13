@@ -1,0 +1,109 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    width: 65rem;
+    align-content: center;
+    align-items: flex-start;
+}
+
+
+.fullScreenDiv {
+    height: 100vh; 
+    width: 100vw; 
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+  } 
+
+.parentOne{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+.mainOverFlow{
+    overflow-x: auto;
+    height: 550px;
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: transparent transparent; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  .mainOverFlow::-webkit-scrollbar {
+    width: 1px; /* Adjust as needed */
+  }
+
+
+.childOne{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensure childOne takes the full width */
+    margin-top: 2rem;
+}
+
+.childOne > div {
+    flex: 1; /* Each inner div takes equal width */
+  }
+
+.childOne p{
+    text-align: end;
+    color: #FF5D01;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+  
+.childOne h2{
+    font-family: 'Poppins', sans-serif;
+    color: #5076FF;
+    font-size: 2rem;
+    margin: 0; 
+    font-size: 2.5rem;
+}
+
+.subChild{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #474444;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    height: 8rem;
+    border-radius: 10px;
+    width: 17rem;
+}
+
+.subChild h2{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.paragraphOne{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* Custom Button Styles */
+.backButton {
+    margin-top: 1.7rem;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #5076FF;
+    color: #5076FF;
+    background-color: transparent;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .backButton:hover {
+    background-color: #5076FF;
+    color: #fff;
+  }

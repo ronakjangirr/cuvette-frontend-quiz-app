@@ -1,0 +1,138 @@
+/* DashnoardComponent.Style.module.css */
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    align-items: center;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-top: 5rem;
+    /* margin-left: 200px; */
+
+}
+
+/* .parentFlex{ */
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* display: flex;
+    flex-wrap: wrap;  */
+    /* gap: 10px;  */
+    
+    /* max-height: 90%; */
+    /* overflow-y: auto; 
+    justify-content: center;
+} */
+
+
+.parentFlex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-height: 300px; /* Set a fixed height */
+    overflow-y: auto; 
+    /* overflow-y: hidden;  */
+    justify-content: center;
+
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: transparent transparent; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+
+
+  .parentFlex::-webkit-scrollbar {
+    width: 1px; /* Adjust as needed */
+  }
+  
+  .parentFlex::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Set a color for the scrollbar thumb */
+  }
+  
+  .parentFlex:hover::-webkit-scrollbar-thumb {
+    background-color: #999; /* Change color on hover */
+  }
+  
+
+
+
+.child {
+    text-align: center;
+    min-height: 170px;
+    min-width: 310px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.logoText{
+    font-size: 1.4rem;
+    color: #474444;
+    margin-top: 1.1rem;
+}
+
+.logoColor{
+   color: #FF5D01;
+}
+
+.logoTime{
+    color: #60B84B;
+    margin-top: 2.5rem;
+}
+
+.countFontSize{
+    font-size: 4rem;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+.childOne {
+    margin-top: 5rem;
+}
+
+.childOne h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #474444;
+    margin-left: 6rem;
+}
+
+.orange {
+    font-family: 'Poppins', sans-serif;
+    color: #FF5D01;
+    font-size: 1.7rem;
+}
+
+.green {
+    font-family: 'Poppins', sans-serif;
+    color: #60B84B;
+    font-size: 1.7rem;
+}
+
+.blue {
+    font-family: 'Poppins', sans-serif;
+    color: #5076FF;
+    font-size: 1.7rem;
+}
+
+.parentTwo {
+    height: 120px;
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+
+    /* width: calc(25% - 20px);  */
+    box-sizing: border-box;
+    margin-bottom: 20px; 
+}
+

@@ -1,0 +1,310 @@
+.parent {
+    height: 530px;
+    width: 580px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperButton{
+    display: flex;
+}
+
+.upperButton .closeIcon {
+    font-size: 15px;
+    color: #D60000; 
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+.inputParent {
+    display: flex;
+}
+
+.input {
+    width: 92%;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 4px 8px rgb(190, 190, 190);
+    height: 3rem;
+    margin-top: 0.7rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #9F9F9F;
+}
+
+.inputText{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 6px;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 4px 8px rgb(190, 190, 190);
+    height: 3rem;
+    /* margin-top: 0.7rem; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #9F9F9F;
+    margin-right: 10px
+}
+
+.inputTextAndImage{
+    width: 39%;
+    margin: auto;
+    margin-bottom: 6px;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 4px 8px rgb(190, 190, 190);
+    height: 3rem;
+    /* margin-top: 0.7rem; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #9F9F9F;
+    margin-right: 10px
+}
+
+.radio {
+    width: 15px;
+    margin: 0px 10px;
+}
+
+.buttonContainer label {
+    margin-top: 20px;
+    color: #9F9F9F;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+.buttonContainer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #9F9F9F;
+}
+
+.customButton {
+    padding: 2px 15px;
+    height: 2rem;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    color: #9F9F9F;
+    width: 8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgb(190, 190, 190);
+}
+
+.customButton:hover {
+    border: #60B84B;
+    background-color: #60B84B;
+    color: white;
+}
+
+.cancelButton {
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 12rem;
+    box-shadow: 0 4px 8px rgb(190, 190, 190);
+    font-size: 1rem;
+}
+
+.cancelButton:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgb(116, 116, 116);
+}
+
+.createButton {
+    padding: 10px 15px;
+    border: 1px solid #60B84B;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #60B84B;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 12rem;
+    font-size: 1rem;
+}
+
+.createButton:hover {
+    background-color: #28a745;
+    box-shadow: 0 4px 8px rgb(177, 555, 305);
+}
+
+.typeSelectContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 22px;
+}
+
+.childContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.childOneContainer button {
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 12rem;
+    box-shadow: 0 4px 8px rgb(190, 190, 190);
+    font-size: 1rem;
+}
+
+.childOneContainer button:hover {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    color: white;
+}
+
+.childTwoContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #9F9F9F;
+    margin: 0px 33px;
+}
+
+.childTwoContainer button {
+    padding: 5px 5px;
+    border: 1px solid white;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 5rem;
+    box-shadow: 0 4px 8px rgb(190, 190, 190);
+    font-size: 1rem;
+}
+
+.childTwoContainer button:hover {
+    background-color: #D60000;
+    color: white;
+    border: 1px solid #D60000;
+}
+
+.subChildContainer button {
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 12rem;
+    box-shadow: 0 4px 8px rgb(190, 190, 190);
+    font-size: 1rem;
+    margin-left: 36px;
+}
+
+.addButton button {
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 90px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 2.7rem;
+    box-shadow: 0 4px 8px rgb(190, 190, 190);
+    font-size: 1rem;
+    margin: 10px 5px 0px 10px;
+}
+
+.addButton button:hover {
+    background-color: rgb(214, 69, 69);
+    border: 1px solid rgb(214, 69, 69);
+    color: white;
+}
+
+.addButton {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.addButton p {
+    color: #9F9F9F;
+    font-family: 'Poppins', sans-serif;
+    margin: 18px 50px 0px 0px;
+}
+
+.textImageButtons button {
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 9rem;
+    box-shadow: 0 4px 8px rgb(190, 190, 190);
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.optionContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    /* Adjust as needed for spacing between options */
+}
+
+.deleteIcon {
+    cursor: pointer;
+    color: red;
+}

@@ -1,0 +1,210 @@
+/* QuizTextandImage.style.module.css */
+
+body {
+    background-color: #041325;
+    margin: 0;
+}
+
+.parent {
+    height: 80vh;
+    max-width: 100%; /* Ensure the div does not exceed the width of its container */
+    border: 10px;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.childone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.childone h3 {
+    color: #474444;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.childone h2 {
+    color: #D60000;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.childtwo {
+    display: flex;
+    justify-content: space-around;
+    color: #474444;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.childthree {
+    display: flex;
+    justify-content: space-around;
+    color: #474444;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+.subChild {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F0F0F0;
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.subChild:hover {
+    border: 1px solid #5076FF;
+}
+
+.subChild img {
+    object-fit: contain; /* Ensure the image fits inside the container without being cut */
+    max-width: 52%; /* Make sure the image takes the full width of the container */
+    max-height: 100%; /* Make sure the image takes the full height of the container */
+    text-align: center;
+}
+
+.subChild p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.childfour {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonNext {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.buttonNext:hover {
+    background-color: #218838;
+}
+
+
+
+
+
+
+/* Media query for smaller screens */
+
+@media (max-width: 992px) and (min-width: 601px) {
+    body {
+        /* background-color: white; */
+    }
+
+    .parent {
+        height: auto;
+        width: 80%;
+    }
+
+    .subChild {
+        height: 80px;
+        width: 280px;
+        margin-top: 10px;
+    }
+
+    .childthree{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+
+    .parent {
+        height: auto;        
+        width: 90%;
+    }
+
+    .childone h3,
+    .childone h2,
+    .childtwo {
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .childone {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subChild {
+        height: 50px;
+        width: 430px;
+        margin-top: 10px;
+    }
+
+    .childthree {
+        text-align: center;
+    }
+
+    .buttonNext {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 200px) {
+    body {
+        background-color: white;
+    }
+
+    .parent {
+        height: auto;
+        width: 80%;
+    }
+
+    .subChild {
+        height: 50px;
+        width: 280px;
+        margin-top: 10px;
+    }
+
+    .subChild p {
+        font-size: 1.2rem;
+    }
+
+    .childthree {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+

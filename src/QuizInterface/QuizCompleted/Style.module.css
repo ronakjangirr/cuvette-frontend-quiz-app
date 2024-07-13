@@ -1,0 +1,105 @@
+/* QuizText.style.module.css */
+
+body {
+    background-color: #041325;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.parent {
+    height: 60vh;
+    max-width: 100%; /* Ensure the div does not exceed the width of its container */
+    border: 10px;
+    background-color: #FFFFFF;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.childOne {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.childOne h2{
+    color: #474444;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.childTwo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image {
+    width: 50%;
+    height: 30vh;
+    border-radius: 10px; /* Add border-radius if desired */
+    margin-top: 10px; /* Add margin-top if needed */
+}
+
+.childThree{
+    display: flex;
+    justify-content: center;
+}
+
+.childThree h2{
+    color: #474444;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.greenText {
+    color: #28a745; /* Green color */
+}
+
+/* Media query for smaller screens */
+
+@media (max-width: 992px) and (min-width: 601px) {
+    body {
+        /* background-color: white; */
+    }
+
+    .parent {
+        height: auto;
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+
+    .parent {
+        height: auto;        
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 200px) {
+    body {
+        background-color: white;
+    }
+
+    .parent {
+        height: auto;
+        width: 80%;
+    }
+}
+
+
+
+
+
